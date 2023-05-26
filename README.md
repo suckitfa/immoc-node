@@ -8,3 +8,6 @@
 # 此版本支持commonjs
 npm install --save inquirer@^8.0.0
 ```
+- npm i download-git-repo 拉取远程仓库
+```sh
+```
