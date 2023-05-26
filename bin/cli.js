@@ -1,5 +1,9 @@
 #! /usr/bin/env node
 const { program } = require('commander')
+const myhelp = require('../lib/core/help')
+const mycommander = require('../lib/core/mycommander')
+myhelp(program)
+mycommander(program)
 // console.log('my cli')
 // 从process.argv中获取用户输入的参数
 // console.log(process.argv)
@@ -12,6 +16,5 @@ program
     .action((projectName,otherArgs) => {
         console.log('create', projectName, otherArgs)
     })
-program.option('-f --framework <framework>', '设置框架')
 // 让我们的命令行工具支持两个参数
 program.parse(process.argv)
