@@ -3,6 +3,8 @@ const ora = require('ora');
 const spinner = ora('Loading unicorns').start();
 
 setTimeout(() => {
-	spinner.color = 'yellow';
-	spinner.text = 'Loading rainbows';
-}, 1000);
+	// console.log('11111')
+	// spinner.succeed('Loading unicorns succeed');
+	// spinner.fail('Loading unicorns failed');
+	// spinner.info('Loading unicorns info');
+}, 2000);
