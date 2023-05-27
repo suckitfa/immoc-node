@@ -8,6 +8,12 @@
 # 此版本支持commonjs
 npm install --save inquirer@^8.0.0
 ```
-- npm i download-git-repo 拉取远程仓库
+- download-git-repo 拉取远程仓库
 ```sh
+npm i download-git-repo
+```
+- ora 加载动画
+```sh
+# 此版本支持commonjs
+npm i ora@5
 ```
