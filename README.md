@@ -17,3 +17,7 @@ npm i download-git-repo
 # 此版本支持commonjs
 npm i ora@5
 ```
+- chalk 终端样式
+```sh   
+npm i chalk@4
+```
